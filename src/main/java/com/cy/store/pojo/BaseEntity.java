@@ -1,10 +1,13 @@
 package com.cy.store.pojo;
 
+import lombok.Data;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 
 
+@Data
 public class BaseEntity implements Serializable {
 
     private String createdUser;

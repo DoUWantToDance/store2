@@ -1,11 +1,13 @@
 package com.cy.store.pojo;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 @Component
+@Data
 public class User extends BaseEntity implements Serializable {
 
     private Integer uid;
