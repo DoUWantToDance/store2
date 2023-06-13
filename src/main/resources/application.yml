@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/store
+    username: root
+    password: 123
+
+mybatis:
+  mapper-locations: mapper/*.xml
+
+user.address.max_count: 20
